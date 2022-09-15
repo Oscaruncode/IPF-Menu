@@ -17,8 +17,7 @@ section{
 }
 .hrefcorrected{
     position: absolute;
-    top:-85px;
-
+    top:-120px;
 }
 
 
@@ -125,16 +124,14 @@ footer::before{
 
 
 @media screen and (max-width:990px){
-    main{
-        margin-top: 120px;
-    }  
-    .hrefcorrected{top:-120px}        /* Corrige el redireccionamiento dentro de la misma pagina para evitar que lo arruine el contenido fixed */
-    }
+    main{margin-top: 120px}
+    header{padding:16px}
+}
 
 @media screen and (max-width:430px) { /* sirve para evitar que el elemento fixed no tape el contenido  */
-        .hrefcorrected{top:-100px}  
+    .hrefcorrected{top:-130px}   /* Corrige el redireccionamiento dentro de la misma pagina para evitar que lo arruine el contenido fixed */
     header{padding:8px 16px}
-    }  
+}  
 
 
 
