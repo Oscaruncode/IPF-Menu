@@ -29,10 +29,7 @@ section{
     }
 
 @media screen and (max-width:430px) { /* sirve para evitar que el elemento fixed no tape el contenido  */
-        main{
-            margin-top: 160px;   
-        }  
-        .hrefcorrected{top:-165px}  
+        .hrefcorrected{top:-150px}  
     }  
 
 
@@ -42,6 +39,7 @@ header{
     left: 0;
     width: 100%;
     z-index: 100;
+    line-height: 10px;
 }
 
 body{
