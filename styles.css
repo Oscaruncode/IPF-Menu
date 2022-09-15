@@ -21,16 +21,6 @@ section{
 
 }
 
-@media screen and (max-width:990px){
-    main{
-        margin-top: 120px;
-    }  
-    .hrefcorrected{top:-120px}        /* Corrige el redireccionamiento dentro de la misma pagina para evitar que lo arruine el contenido fixed */
-    }
-
-@media screen and (max-width:430px) { /* sirve para evitar que el elemento fixed no tape el contenido  */
-        .hrefcorrected{top:-150px}  
-    }  
 
 
 header{
@@ -40,6 +30,7 @@ header{
     width: 100%;
     z-index: 100;
     line-height: 10px;
+    padding:16px;
 }
 
 body{
@@ -131,6 +122,19 @@ footer::before{
     transform: rotate(45deg);
 }
 
+
+
+@media screen and (max-width:990px){
+    main{
+        margin-top: 120px;
+    }  
+    .hrefcorrected{top:-120px}        /* Corrige el redireccionamiento dentro de la misma pagina para evitar que lo arruine el contenido fixed */
+    }
+
+@media screen and (max-width:430px) { /* sirve para evitar que el elemento fixed no tape el contenido  */
+        .hrefcorrected{top:-130px}  
+    header{padding:5px}
+    }  
 
 
 
