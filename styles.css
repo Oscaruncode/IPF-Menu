@@ -132,8 +132,8 @@ footer::before{
     }
 
 @media screen and (max-width:430px) { /* sirve para evitar que el elemento fixed no tape el contenido  */
-        .hrefcorrected{top:-130px}  
-    header{padding:5px}
+        .hrefcorrected{top:-110px}  
+    header{padding:8px}
     }  
 
 
